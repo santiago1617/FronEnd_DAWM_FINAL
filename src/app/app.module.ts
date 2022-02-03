@@ -11,6 +11,10 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ClienteComponent } from './usersModule/cliente/cliente.component';
+import { AdministradorComponent } from './usersModule/administrador/administrador.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +24,9 @@ import { ContactoComponent } from './contacto/contacto.component';
     NavBarComponent,
     FooterComponent,
     NoticiasComponent,
-    ContactoComponent
+    ContactoComponent,
+    ClienteComponent,
+    AdministradorComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,8 @@ import { ContactoComponent } from './contacto/contacto.component';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

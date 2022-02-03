@@ -4,9 +4,12 @@ import { IndexComponent } from './index/index.component';
 import { RouterModule,Routes} from '@angular/router';
 import { PageNosotrosComponent } from './page-nosotros/page-nosotros.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes=[{path:"index",component: IndexComponent},
-{ path: '', redirectTo: '/index', pathMatch: 'full' },{path:"nosotros",component:PageNosotrosComponent},
+{ path: '', redirectTo: '/index', pathMatch: 'full' },
+{path:"nosotros",component:PageNosotrosComponent},
+{path :"contact", component:ContactoComponent},
 {path:"noticias",component:NoticiasComponent}];  
 @NgModule({
   declarations: [
