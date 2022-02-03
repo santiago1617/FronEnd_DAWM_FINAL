@@ -7,9 +7,9 @@ body {
   }
   
   .login-box {
-    width: 320px;
-    height: 420px;
-    background: #000;
+    width: 420px;
+    height: 650px;
+    background-color:#060132;/*#312E2E*/
     color: #fff;
     top: 50%;
     left: 50%;
@@ -21,7 +21,45 @@ body {
     
   }
 
-  .user{
-      margin-left: 50px;
-  }
+img {
+ height: 100%;
+ width: 100%;
+margin: 0 auto;
+object-fit:contain;
+}
 
+.avatar {
+ height:150px;
+ width: 150px;
+margin: 0 auto;
+margin-bottom: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.boton {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.boton:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+span{
+margin-right:16px;
+}
