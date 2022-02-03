@@ -14,6 +14,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ClienteComponent } from './usersModule/cliente/cliente.component';
 import { AdministradorComponent } from './usersModule/administrador/administrador.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { AdministradorComponent } from './usersModule/administrador/administrado
     ContactoComponent,
     ClienteComponent,
     AdministradorComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

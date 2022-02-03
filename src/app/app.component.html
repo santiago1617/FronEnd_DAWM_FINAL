@@ -8,14 +8,15 @@
 </head>
 <body>
   <header>
-    <app-nav-bar></app-nav-bar>
+    <app-nav-bar *ngIf='!showNav'></app-nav-bar>
+    
   </header>
   <main>
     <router-outlet></router-outlet>
   </main>
 
   <footer>
-  <app-footer></app-footer>
+  <app-footer *ngIf='!showFoot'></app-footer>
   </footer>
   
 </body>

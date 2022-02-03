@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sitioAngular';
+  showNav=false;
+  showFoot=false;
 }
 
 fetch('http://localhost:3000/rutas')
