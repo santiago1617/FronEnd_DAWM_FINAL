@@ -26,7 +26,9 @@ const routes: Routes=[{path:"index",component: IndexComponent},
   declarations: [
   ],
   imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes,{onSameUrlNavigation: "ignore",
+    anchorScrolling:'enabled',
+    scrollPositionRestoration: 'enabled'})
   ]
   ,exports:[RouterModule]
 })
