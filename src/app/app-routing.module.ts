@@ -16,8 +16,8 @@ const routes: Routes=[{path:"index",component: IndexComponent},
 {path :"contact", component:ContactoComponent},
 {path:"noticias",component:NoticiasComponent},
 {path:"login", component:LoginComponent},
-{path:"cliente", component:ClienteComponent },
-{path:"administrador", component:AdministradorComponent },
+{path:"cliente/:id", component:ClienteComponent },
+{path:"administrador/:id", component:AdministradorComponent },
 
 ];
 
